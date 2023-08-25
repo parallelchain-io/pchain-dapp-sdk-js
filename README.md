@@ -2,9 +2,9 @@
 
 This SDK aims to provide a convenient way JavaScript developers to transfer tokens or build DApps on the [Parallelchain Mainnet](https://github.com/parallelchain-io/parallelchain-protocol).
 
-Please refer to the [usage guide](./USAGE-GUIDE.md) for details on the API methods provided.
+Please refer to the [usage guide](https://github.com/parallelchain-io/pchain-dapp-sdk-js/blob/main/USAGE-GUIDE.md) for details on the API methods provided.
 
-Within the `/examples` folder, there are pre-written code samples that can be utilized to begin working on projects. For those who specialize in smart contracts, the [smart-contract-e2e sample](./examples/smart-contract-e2e.ts) provides a helpful starting point.
+Within the [`/examples`](https://github.com/parallelchain-io/pchain-dapp-sdk-js/tree/main/examples) folder, there are pre-written code samples that can be utilized to begin working on projects. For those who specialize in smart contracts, the [smart-contract-e2e sample](https://github.com/parallelchain-io/pchain-dapp-sdk-js/blob/main/examples/smart-contract-e2e.ts) provides a helpful starting point.
 
 **Table of Contents**
 
