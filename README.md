@@ -70,9 +70,7 @@ console.log(nonce);
 
 ### Running Examples
 
-The files in the `/examples` folder contain more in-depth code samples and walkthroughs.
-
-Execute them using the following command:
+Try out the pre-written code samples in the `/examples` folder using the following command:
 
 ```sh
 npm run example -- <filepath>
@@ -88,7 +86,7 @@ npm run example -- './examples/smart-contract-e2e.ts'
 
 ### Testing Setup
 
-1. As some integration tests interact with Testnet, prepare an account and export the relevant private and public Keys.  
+1. As some integration tests interact with Testnet, prepare an account and export the relevant private and public keys.  
    Please find detailed instructions at https://docs.parallelchain.io/getting_started/create_account/.
 
 1. Create a local copy of the `.env` file by following the sample in `.env-example`.  
@@ -106,11 +104,11 @@ For a detailed explanation and example of each method, please refer to the [usag
 
 ## Dependencies
 
-This library depends on [bn.js](https://www.npmjs.com/package/bn.js) for safe encoding of number values, as these could exceed Number.MAX_SAFE_INTEGER in JavaScript.
+This library depends on [bn.js](https://www.npmjs.com/package/bn.js) for safe encoding of number values, as these could exceed `Number.MAX_SAFE_INTEGER` in JavaScript.
 
-It also depends on related packages such as [`pchain-types-js`](https://www.npmjs.com/package/pchain-types-js), which exposes the types and classes used to interact with PChain, as well as [`pchain-client-js`](https://www.npmjs.com/package/pchain-client-js), which provides the base-level HTTP client to interact with the PChain RPC API.
+It also depends on related packages such as [`pchain-types-js`](https://github.com/parallelchain-io/pchain-types-js), which exposes the types and classes used to interact with PChain, as well as [`pchain-client-js`](https://github.com/parallelchain-io/pchain-client-js), which provides the base-level HTTP client to interact with the PChain RPC API.
 
-Although included as part of this package, we recommended developers explicitly install `bn.js` and `pchain-types-js` as dependencies in their `package.json`, as these will be directly imported during development.
+Although included as part of this package, we also recommend that developers explicitly install `bn.js` and `pchain-types-js` as dependencies in their project `package.json`.
 
 ## Support
 
