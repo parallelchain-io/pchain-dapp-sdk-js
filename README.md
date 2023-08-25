@@ -100,7 +100,7 @@ npm run test
 
 ## Detailed Usage
 
-For a detailed explanation and example of each method, please refer to the [usage guide](./USAGE-GUIDE.md).
+For a detailed explanation and example of each method, please refer to the [usage guide](https://github.com/parallelchain-io/pchain-dapp-sdk-js/blob/main/USAGE-GUIDE.md).
 
 ## Dependencies
 
