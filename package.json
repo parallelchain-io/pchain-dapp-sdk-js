@@ -1,6 +1,6 @@
 {
   "name": "pchain-dapp-sdk-js",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "ParallelChain Mainnet DApp JavaScript SDK",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
